@@ -1,7 +1,3 @@
-import WalletConnectClient from '@walletconnect/client'
-import QRCodeModal from '@walletconnect/qrcode-modal'
 
-export {
-  WalletConnectClient,
-  QRCodeModal
-}
+import provider from '@walletconnect/web3-provider'
+export default provider
