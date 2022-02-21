@@ -1,0 +1,31 @@
+{
+  "name": "prebuilt-walletconnect-provider",
+  "version": "1.0.0",
+  "description": "WalletConnect Provider browser pre-built usable in rollup bundles.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuzzlet/prebuilt-walletconnect-provider.git"
+  },
+  "keywords": [
+    "walletconnect",
+    "rollup"
+  ],
+  "author": "https://nuzzlet.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuzzlet/prebuilt-walletconnect-provider/issues"
+  },
+  "homepage": "https://github.com/nuzzlet/prebuilt-walletconnect-provider#readme",
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "@walletconnect/client": "^1.6.5",
+    "@walletconnect/qrcode-modal": "^1.6.5"
+  }
+}
